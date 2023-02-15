@@ -14,9 +14,9 @@ def get_indexes_range(min_element, max_element, list_input):
 min_element = int(input("Введите минимальное число диапазона: "))
 max_element = int(input("Введите максимальное число диапазона: ")) 
 
-# print('Введите массив в строку: ')
-# list_input = list(map(int, input().split())) 
-list_input =[-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+print('Введите массив в строку: ')
+list_input = list(map(int, input().split())) 
+# list_input =[-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 
 if max_element < min_element:
     print("Максимальный элемент не должен быть меньше минимального!")
